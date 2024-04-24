@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEBT_TRACKER_D4A90 }}
           channelId: live
           projectId: debt-tracker-d4a90
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks

@@ -19,3 +19,5 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEBT_TRACKER_D4A90 }}
           projectId: debt-tracker-d4a90
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
