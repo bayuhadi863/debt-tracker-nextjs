@@ -18,6 +18,7 @@ export default function LoginPage() {
 
   return (
     <form>
+      <label htmlFor="">Update</label>
       <button onClick={handleForm}>Sign up</button>
     </form>
   );
